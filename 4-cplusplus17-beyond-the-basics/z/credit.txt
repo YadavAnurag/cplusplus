@@ -1,0 +1,6 @@
+Another great course, by Kate Gregory, C++ Beyond Basics covering the c++17 new features. She taught a lot about modern concept fo c++17.
+Covering c++17 modern topics, standard library containers, lambdas(init capture, generic lambdas, return type of lambdas, explicit return type of lambdas, tiny functions), passing by value, passing by reference and passing rest by value and passing rest by reference.
+Move semantics(rValue, lValue and others).
+She also covered Exception as well, Exception with try catch, throw, handling Exception. Throwing Exception with Exception type.
+Catching exception with reference, Unwinding stack, use of make_unique with try catch, and how destructor work after exception occurs after try block, with the bit knowledge of noexcept.
+And some other topics as well.
