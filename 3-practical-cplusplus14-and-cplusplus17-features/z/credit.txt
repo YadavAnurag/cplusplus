@@ -1,0 +1,5 @@
+Another great course, Giovanni Dicanio, a great instructor, He is an Italian based instructor, anyone will like his tone.
+From this course, I learned a lot, started with convenient syntactic sugar - like separators, literals, and automatic return type deduction.
+c++11 improvements like constexpr, variable templates, deprecated attribute,
+standard library improvements, lambdas(old type, generic lambdas and init-capture lambdas) and last 
+with c++17 improvements, nested namespace, if and switch constexpr, structured bindings etc.

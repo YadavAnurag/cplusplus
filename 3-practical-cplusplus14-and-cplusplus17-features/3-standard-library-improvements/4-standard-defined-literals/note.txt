@@ -1,0 +1,3 @@
+auto name = "anu"; -> deduce to c-type pointer to characters
+auto anotherName = "gopal"s; -> deduce to string type
+auto x = 10s; -> auto deduce to std::chrono::seconds

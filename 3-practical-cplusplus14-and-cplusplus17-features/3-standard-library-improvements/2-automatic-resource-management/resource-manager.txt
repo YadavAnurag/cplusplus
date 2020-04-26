@@ -1,0 +1,20 @@
+Resource Manager 
+automatically releases the owned resource
+
+{ // -> constructor
+
+  ResourceManager x{/* */};
+  x.doSomething();
+  // more code...
+
+} // -> destructor ~ResourceManager
+
+
+
+
+Raw pointer v/s Smart pointers(unique_ptr)
+Raw pointer -> must explicitly delete /release
+Smart pointer -> memory automatically delete
+
+#include <memory> // for unique_ptr and make_unique
+auto p = std::make_unique<double[]>(100'000); // create a unique_ptr of an array of 100'000 doubles

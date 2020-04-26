@@ -1,0 +1,32 @@
+pointers
+
+simple variables are allocated on stack
+stack(very fast) has very limited amount of space....
+if you want to store large amount of data use Heap(allocation is much slower)
+
+stack - 
+int x{3};
+double y{100000};
+string s{"anu"};
+
+
+################################
+Heap - using new
+double* p = new double[10000000]; 
+
+new -> request to Heap allocation
+double -> element type
+10000000 -> number of element count
+double* -> type of pointing data type
+p -> pointer to the beginning of allocated memory 
+#################################
+Note -> stack variables de-allocated when goes out of scope, but Heap variables not, so you must have to de-allocate them.
+
+Heap allocation Steps
+1. allocate big chunk of memory using new []
+2. use the memory
+3. must release it.
+delete [] p;
+or 
+p = nullptr; // avoiding dangling reference
+
