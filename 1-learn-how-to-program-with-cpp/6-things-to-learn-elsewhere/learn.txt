@@ -1,0 +1,15 @@
+Exceptions
+Free store
+Lambdas
+
+
+Inheritance, virtual functions, polymorphism, multiple Inheritance
+Enum keyword
+Boolean operators && and ||, shortCutting
+interacting with OS- eg. calling a windows API
+Bitwise operators &, |, ^, <<, >>
+The switch statement
+More punctuations- %, &, *, ->, ?
+Default parameters to functions
+Writing templates
+Writing your own operators overloads

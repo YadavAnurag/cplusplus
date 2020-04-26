@@ -1,0 +1,26 @@
+Casting
+  int i = (int) 4.5 -> old c style 
+  int i = static_cast<int> (4.5) -> modern c++ style 
+
+Macros
+  #define Pi 3.14 -> old c style
+  const Pi 3.14 -> modern c++ style (ideally used in class to avoid name collisions) 
+
+  #define SQR(x) (x*x) -> old style c
+  use inline function  -> modern c++ style 
+  double SQR(double x, double y){return x*y;}; -> inline function c++
+
+Collection of things
+  int arr[4] -> old c style
+  vector<int> arr; -> modern c++ style
+
+Typedef
+  typedef std::vector<int> VectorOfInt;
+  VectorOfInt numbers;
+
+  typedef std::vector<double> VectorOfDouble;
+  VectorOfInt more_numbers;
+
+
+Never copy-and-paste without understanding
+Try to represent your understanding using modern constructs

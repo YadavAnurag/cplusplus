@@ -1,0 +1,25 @@
+// classes
+
+/*
+Account class:
+Keep track of a balance
+holds a vector of transaction objects
+deposit and withdraw member functions
+report function - collection of stings that a calling code can print 
+
+Transaction class:
+Should have a date, but ignore it 
+Holds an amount, and a transaction type(string for now)
+report function - string describe the amount and type 
+
+Deposit will:
+create a transaction 
+add it to a vector 
+update the balance 
+
+Withdraw is the same:
+except you can not take out more than you have 
+
+*/
+
+
