@@ -1,0 +1,15 @@
+Writing and overload
+
+
+1. MyObject < Something
+bool MyClass::operator< (OtherType something)
+
+Can operate on two MyClass Object or different types 
+
+
+2. Something < MyObject
+bool operator< (OtherType something, MyClass myclass)
+
+Free function
+use MyClass public functions
+Or be declared a friend

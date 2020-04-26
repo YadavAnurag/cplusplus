@@ -1,0 +1,10 @@
+Understanding Error Messages
+
+Compiler
+  Have you declared that function ?
+  usually in .h
+  making or declaring a promise
+Linker
+  Have you implemented that function ?
+  usually in .cpp
+  keeping or implementing a promise

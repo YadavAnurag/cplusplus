@@ -1,0 +1,19 @@
+c++ reference can not reassign
+but c++ pointer can 
+
+pointer can not be not pointing to anything
+for that in c, it is used as default assignment to 0 or NULL
+but in modern c++ it is default assignment to nullptr
+
+
+
+
+// both are same
+int* pA = &A; // usually used by good developers
+int *pA = &A; 
+*pA
+
+Person Anu("Anu", "Singh", 12);
+Person* pAnu = &Anu;
+name = (*pAnu).GetName(); // () is required for objects
+name = pAnu->GetName(); // usually used by good developers

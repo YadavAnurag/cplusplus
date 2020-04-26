@@ -1,0 +1,7 @@
+Types of application-
+
+Phone and other client apps(including windows) including games
+Console apps 
+Services
+Servers
+Libraries

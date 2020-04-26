@@ -1,0 +1,3 @@
+Another great course, Kate Gregory, the great instructor, I never met a she who knows about programming as much she knows.
+I learn a lot form this course, like c++ tools, types, flow-control, functions, operator, operator-overloading, templates(functional and class based and other one, template specialization), indirection, memory management and what not.
+I love the pattern that she use to teach and I also love her examples. 

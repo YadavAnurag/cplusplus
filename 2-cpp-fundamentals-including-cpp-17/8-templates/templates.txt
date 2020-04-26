@@ -1,0 +1,44 @@
+C++ implements Genericity with Templates
+
+Templates resolved at compile time no runtime check
+Templates slows down the compilation, but speed runtime a dramatically (because no runtime check)
+Using Templates is great trade-off;
+
+
+1. Template function syntax
+
+template <class T>
+T GetMax(T const& t1, T const& t2){
+  return t1 < t2 ? t1 : t2;
+}
+int a = GetMax(2,3);
+
+
+2. Templates class syntax
+
+template <class T>
+class Accumulate{
+  private:
+    T total
+  public:
+    Accumulate();
+    Accumulate(T start):total(start){};
+    T operator+=(T const& t){
+      return total = total + t;
+    };
+    T GetTotal() const{
+      return total;
+    };
+};
+
+Accumulate<int> integers(0);
+Accumulate<string> strings("");
+
+
+3. Template Specialization
+Sometime a template won't work for a particular class 
+  -Operator or function is missing (and you can't add logic) (means you've defined < operator but try to work for >)
+  -Logic in the operator won't work for this case (means you have defined < and > both but working for only comparing eg. balance for BankAccount class ) 
+
+First choice: add operator or function with right logic
+Second choice: specialize the template 
