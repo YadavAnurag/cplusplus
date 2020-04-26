@@ -1,0 +1,4 @@
+Another course, by Kate Gregory, Reading Legacy C++, nothing fancy in this course, covered only reading part of legacy c++, old style c++.
+A quote is always said by instructor -> "never copy and paste without understanding it". 
+Learned how to read old style legacy code, never copy and paste old codes only read, understand and then use modern c++.
+Covered, c style char string,printf, casting, macros, typedef, pointers, arrays, function and void pointers.
