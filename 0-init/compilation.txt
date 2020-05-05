@@ -1,0 +1,5 @@
+g++ -std=c++14 -Wall -Wextra Filename.cpp OtherFileName.cpp -o Filename
+g++ -std=c++17 -Wall -Wextra Filename.cpp OtherFileName.cpp -o Filename
+
+To check your program with ASan, memory detector ->
+g++ -std=c++14 -fsanitize=address -g -01 Array.cpp // -01 is for basic optimization
