@@ -1,0 +1,33 @@
+set-(sorted unique containers)
+1. containers for unique objects
+2. sorted order
+3. great- O(logN) insertion and look-up
+
+
+map-(sorted associative containers) -> like dictionary in python(but python doesn't store in sorted order)
+1. containers for associative pair objects
+2. sorted order (based on first key)
+3. great- O(logN) insertion, look-up, erase
+
+you can not access the [] operator to map if argument pass using const&,
+fix - use .find method
+
+c++ 20-> erase_if, .contains
+
+
+unordered_map 
+  stored using hash
+  (unordered associative containers) -> not sorted 
+  -> so great performance - average O(1) -insertion, deletion, look-up
+
+
+
+to store map -> balanced binary search tree
+
+
+
+##############################
+using map and unordered_map with custom classes type
+
+map -> you must have to define a custom comparator method
+unordered_map -> you must have to define a custom has method generator, and custom comparator method (to complicated)

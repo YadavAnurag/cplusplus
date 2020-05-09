@@ -1,0 +1,5 @@
+Another great course, by Italian instructor, Giovanni Dicanio.
+From this course, I learned about set operations insertion, removal, iteration, searching and also with custom classes.
+learned about map and unordered_map how to map a key to value, made an Italian-English dictionary, Airport-Database with custom class map.
+learned how unordered_map is more efficient than the ordered map, also when to use ordered and when unordered_map, also made a performance benchmark between the map and unordered_map while counting the words from input file.
+As unordered_map give the average O(1) insertion, removal, searching performance(because it stores element with hashing) whereas map give O(logN) for insertion, removal, and searching(because it stores element in sorted order).
