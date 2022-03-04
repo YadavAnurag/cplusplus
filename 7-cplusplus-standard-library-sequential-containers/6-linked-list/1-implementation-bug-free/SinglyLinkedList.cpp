@@ -22,6 +22,7 @@ SinglyLinkedList::~SinglyLinkedList(){
   Clean(); 
 }
 
+
 void SinglyLinkedList::InsertAtHead(int const& value){
   // create of new node
   std::unique_ptr<Node> temp{std::make_unique<Node>(value)};
@@ -112,3 +113,4 @@ bool SinglyLinkedList::Remove(int value){
 
   return false;
 }
+

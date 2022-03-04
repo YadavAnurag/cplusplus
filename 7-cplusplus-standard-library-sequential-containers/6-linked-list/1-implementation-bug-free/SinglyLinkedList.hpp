@@ -22,12 +22,14 @@ class SinglyLinkedList{
     SinglyLinkedList();
     SinglyLinkedList(SinglyLinkedList &&list); // move constructor
     ~SinglyLinkedList();
+    Node* Head() const { return head.get();} ;
     void InsertAtHead(int const& val); // insert at start
     void RemoveAtHead();
     void Reverse();
     int Size() const;
     bool Search(int value) const;
     bool Remove(int value);
+
     
   friend std::ostream& operator<<(std::ostream &os, const SinglyLinkedList &list){
     os << "[ ";
